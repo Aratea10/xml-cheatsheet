@@ -192,7 +192,7 @@ saxParser.parse(new File("datos.xml"), new ManejadorEventos());
 - **DOM**: Document Object Model. Interfaz de programación que representa documentos HTML o XML como árboles de nodos.
 - **Entidad**: referencias que representan caracteres especiales o bloques de texto predefinidos en XML.
 - **Namespace**: espacio de nombres. Mecanismo para evitar conflictos entre nombres de elementos en XML.
-- **Nodo** cualquier objeto dentro de la estructura de un documento XML (elementos, atributos, texto, etc.).
+- **Nodo**: cualquier objeto dentro de la estructura de un documento XML (elementos, atributos, texto, etc.).
 - **SAX**: Simple API for XML. Interfaz para procesar documentos XML de manera secuencial.
 - **Schema (XSD)**: XML Schema Definition. Describe la estructura de un documento XML de manera más potente que un DTD.
 - **XSLT**: eXtensible Stylesheet Language Transformations. Lenguaje para transformar documentos XML en otros formatos.
