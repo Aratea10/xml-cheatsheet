@@ -15,7 +15,6 @@ Una guía rápida de referencia con la sintaxis esencial de XML, selectores, pro
 
 <br>
 
-
 ## 🏗️ Estructura Básica
 ```xml
 <xml version="1.0" encoding="UTF-8">
@@ -25,6 +24,9 @@ Una guía rápida de referencia con la sintaxis esencial de XML, selectores, pro
   </elemento>
 </root>
 ```
+
+<br>
+
 ## 📏 Reglas Sintácticas
 | REGLA | DESCRIPCIÓN | EJEMPLO |
 | ----- | ----------- | ------- |
@@ -59,6 +61,8 @@ Una guía rápida de referencia con la sintaxis esencial de XML, selectores, pro
 ]>
 ```
 
+<br>
+
 | COMPONENTE DTD | DESCRIPCIÓN |
 | --- | --- |
 | `<!ELEMENT>` | Define un elemento y su contenido permitido |
@@ -79,6 +83,8 @@ Una guía rápida de referencia con la sintaxis esencial de XML, selectores, pro
   </xs:element>
 </xs:schema>
 ```
+
+<br>
 
 | VENTAJAS DE XSD SOBRE DTD | DESCRIPCIÓN |
 | ------ | ------ |
@@ -141,6 +147,8 @@ Carga el documento completo en memoria y crea una estructura de árbol para nave
 const xmlDoc = parser.parseFromString(xmlString, "text/xml");
 const elementos = xmlDoc.getElementsByTagName("elemento");
 ```
+
+<br>
 
 ### 🔄 SAX (Simple API for XML)
 Procesamiento secuencial basado en eventos, útil para documentos grandes.
