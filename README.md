@@ -13,5 +13,3 @@ Choose your language / Elige tu idioma:
 
 ## Contribuir: 
 ¿Ves algo que falta o se puede mejorar? Abre un PR. Se agradecen ejemplos y trucos útiles.
-
-##
